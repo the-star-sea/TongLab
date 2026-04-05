@@ -1,0 +1,72 @@
+title: Tong Lab
+author: Tong Lab
+navbar-links:
+  Home: "/"
+  People: "/pages/People"
+  Projects: "/pages/Projects"
+  Blogs: "/pages/Blogs"
+  Contact: "/pages/Contact"
+
+social-network-links:
+  github: "the-star-sea/TongLab"
+  email: "tong-lab@coming-soon.invalid"
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: false
+
+navbar-col: "#ccd0eb"
+navbar-text-col: "#213652"
+navbar-border-col: "#213652"
+page-col: "#FFFFFF"
+text-col: "#213652"
+link-col: "#386096"
+hover-col: "#3a71ba"
+footer-col: "#ccd0eb"
+footer-border-col: "#213652"
+footer-text-col: "#213652"
+footer-link-col: "#3a71ba"
+footer-hover-col: "#3a71ba"
+
+timezone: "Asia/Shanghai"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+url: "https://the-star-sea.github.io"
+baseurl: "/TongLab"
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+  - archived/
+  - helper/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
