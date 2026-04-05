@@ -32,6 +32,9 @@ subtitle: Tong Lab roster
 .member-name { margin: 0 0 6px 0; font-size: 21px; }
 .member-role { color: #355caa; font-weight: 700; margin-bottom: 8px; }
 .member-desc { color: #555; font-size: 14px; line-height: 1.7; }
+.member-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+.member-links a { display:inline-block; padding:6px 10px; border-radius:999px; background:#eef4ff; color:#274690; text-decoration:none; font-size:13px; font-weight:600; }
+.member-links a:hover { background:#dfe9ff; }
 @media (max-width: 960px) { .member-card { width: calc(50% - 18px); } }
 @media (max-width: 560px) { .member-card { width: 100%; max-width: 340px; } }
 </style>
@@ -52,6 +55,11 @@ subtitle: Tong Lab roster
         Ph.D. student in Computer Science at Fudan University. His interests include AI, world models,
         multimodal learning, LLM safety, vision-language systems, SVG generation, head avatars,
         and trajectory prediction.
+      </div>
+      <div class="member-links">
+        <a href="https://stonezhang.com" target="_blank">Homepage</a>
+        <a href="https://scholar.google.com/scholar?q=Tong+Zhang+Fudan+University" target="_blank">Scholar</a>
+        <a href="mailto:tongz27@uci.edu">Email</a>
       </div>
     </div>
   </div>

@@ -1,14 +1,14 @@
 title: Tong Lab
 author: Tong Zhang
-description: Tong Lab — research, systems, multimodal learning, and living AI workflows.
-keywords: "Tong Lab, Tong Zhang, AI, multimodal learning, agent systems, research"
+description: Tong Lab — research, systems, multimodal learning, agent routing, and living AI workflows.
+keywords: "Tong Lab, Tong Zhang, AI, multimodal learning, world models, agent systems, tool router, vision-language models, LLM safety"
 title-img: "/img/tonglab-logo.png"
 avatar: "/img/members/tong.jpg"
 navbar-links:
   Home: "/"
   People: "/pages/People"
   Projects: "/pages/Projects"
-  Blogs: "/pages/Blogs"
+  News: "/pages/Blogs"
   Contact: "/pages/Contact"
 
 social-network-links:

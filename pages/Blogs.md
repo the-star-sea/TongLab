@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Blogs
+title: News
 subtitle: Notes and updates
 ---
 
 <div style="font-size: 13pt; line-height: 1.9; margin-bottom: 24px; max-width: 900px;">
-  This page collects short notes, launch posts, and future public writing from Tong Lab.
+  This page collects short updates, launch notes, and future public writing from Tong Lab.
 </div>
 
 {% if site.posts.size > 0 %}
