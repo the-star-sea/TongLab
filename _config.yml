@@ -1,5 +1,9 @@
 title: Tong Lab
-author: Tong Lab
+author: Tong Zhang
+description: Tong Lab — research, systems, multimodal learning, and living AI workflows.
+keywords: "Tong Lab, Tong Zhang, AI, multimodal learning, agent systems, research"
+title-img: "/img/tonglab-logo.png"
+avatar: "/img/members/tong.jpg"
 navbar-links:
   Home: "/"
   People: "/pages/People"
@@ -9,25 +13,26 @@ navbar-links:
 
 social-network-links:
   github: "the-star-sea/TongLab"
-  email: "tong-lab@coming-soon.invalid"
+  email: "tongz27@uci.edu"
 
 excerpt_length: 50
 feed_show_excerpt: true
-feed_show_tags: true
+feed_show_tags: false
 post_search: false
 
-navbar-col: "#ccd0eb"
-navbar-text-col: "#213652"
-navbar-border-col: "#213652"
-page-col: "#FFFFFF"
-text-col: "#213652"
-link-col: "#386096"
-hover-col: "#3a71ba"
-footer-col: "#ccd0eb"
-footer-border-col: "#213652"
-footer-text-col: "#213652"
-footer-link-col: "#3a71ba"
-footer-hover-col: "#3a71ba"
+navbar-col: "#eef2ff"
+navbar-text-col: "#1f2937"
+navbar-border-col: "#d4d9f5"
+page-col: "#ffffff"
+text-col: "#243043"
+link-col: "#355caa"
+hover-col: "#264b97"
+footer-col: "#eef2ff"
+footer-border-col: "#d4d9f5"
+footer-text-col: "#243043"
+footer-link-col: "#355caa"
+footer-hover-col: "#264b97"
+mobile-theme-col: "#eef2ff"
 
 timezone: "Asia/Shanghai"
 markdown: kramdown
@@ -56,16 +61,10 @@ defaults:
       layout: "page"
 
 exclude:
-  - CHANGELOG.md
-  - CNAME
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md
-  - screenshot.png
   - docs/
-  - archived/
-  - helper/
 
 plugins:
   - jekyll-paginate

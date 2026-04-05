@@ -1,9 +1,11 @@
 # TongLab
 
-Tong Lab website built with a Beautiful Jekyll style adapted from:
-https://github.com/growing-ai-like-a-child/growing-ai-like-a-child.github.io
+Public GitHub Pages site for Tong Lab.
 
-Sections:
+Live site:
+- https://the-star-sea.github.io/TongLab/
+
+Current sections:
 - Home
 - People
 - Projects
