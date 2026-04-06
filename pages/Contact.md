@@ -11,9 +11,7 @@ subtitle: Reach Tong Lab
   <ul>
     <li><strong>Homepage:</strong> <a href="https://stonezhang.com" target="_blank">stonezhang.com</a></li>
     <li><strong>Email:</strong> <a href="mailto:tongz27@uci.edu">tongz27@uci.edu</a></li>
-    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/scholar?q=Tong+Zhang+Fudan+University" target="_blank">Scholar search for Tong Zhang</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tong-zhang-stone/" target="_blank">Tong Zhang Stone on LinkedIn</a></li>
+    <li><strong>X:</strong> <a href="https://x.com/search?q=Tong%20Zhang%20Fudan%20University&src=typed_query" target="_blank">Search Tong Zhang on X</a></li>
   </ul>
-  <p>
-    If you want, this can later be replaced with a dedicated Google Scholar profile link once that exact public profile URL is finalized.
-  </p>
 </div>
