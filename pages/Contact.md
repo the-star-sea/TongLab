@@ -12,6 +12,6 @@ subtitle: Reach Tong Lab
     <li><strong>Homepage:</strong> <a href="https://stonezhang.com" target="_blank">stonezhang.com</a></li>
     <li><strong>Email:</strong> <a href="mailto:tongz27@uci.edu">tongz27@uci.edu</a></li>
     <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tong-zhang-stone/" target="_blank">Tong Zhang Stone on LinkedIn</a></li>
-    <li><strong>X:</strong> <a href="https://x.com/search?q=Tong%20Zhang%20Fudan%20University&src=typed_query" target="_blank">Search Tong Zhang on X</a></li>
+    <li><strong>X:</strong> <a href="https://x.com/hahastone2" target="_blank">@hahastone2 on X</a></li>
   </ul>
 </div>
