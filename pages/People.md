@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-subtitle: Tong Lab roster
+subtitle: ""
 ---
 
 <style>

@@ -4,10 +4,6 @@ title: Projects
 subtitle: ""
 ---
 
-<div style="font-size: 13pt; line-height: 1.9; max-width: 940px; margin: 0 auto 26px auto;">
-  Tong Lab is currently centered on a small set of core ideas, plus the agent-and-tool routing system that helps turn those ideas into an actual working lab workflow.
-</div>
-
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px;">
   <div style="background:linear-gradient(180deg,#f8faff 0%, #ffffff 100%); border:1px solid #e7ecfb; border-radius:16px; padding:22px; box-shadow:0 8px 24px rgba(38,75,151,0.06);">
     <h3 style="margin-top:0;">Multimodal memory alignment</h3>
