@@ -12,8 +12,11 @@ navbar-links:
   Contact: "/pages/Contact"
 
 social-network-links:
+  homepage: "https://stonezhang.com"
   github: "the-star-sea/TongLab"
   email: "tongz27@uci.edu"
+  linkedin: "tong-zhang-stone"
+  twitter: "hahastone2"
 
 excerpt_length: 50
 feed_show_excerpt: true

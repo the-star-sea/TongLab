@@ -39,12 +39,6 @@ subtitle: Tong Lab roster
 @media (max-width: 560px) { .member-card { width: 100%; max-width: 340px; } }
 </style>
 
-<div style="text-align:center; max-width: 920px; margin: 0 auto; font-size: 13pt; line-height: 1.9;">
-  Tong Lab is currently a compact human-plus-agents team. Tong leads the research direction; Rock, Kiti,
-  and Biubiu cover different parts of the operating stack and turn the lab into a living working system,
-  not just a personal homepage.
-</div>
-
 <div class="member-grid">
   <div class="member-card">
     <img src="{{ '/img/members/tong.jpg' | relative_url }}" alt="Tong Zhang" class="member-photo">
