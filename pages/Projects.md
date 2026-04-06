@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: Current ideas and systems
+subtitle: ""
 ---
 
 <div style="font-size: 13pt; line-height: 1.9; max-width: 940px; margin: 0 auto 26px auto;">

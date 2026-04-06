@@ -9,7 +9,7 @@ navbar-links:
   People: "/pages/People"
   Projects: "/pages/Projects"
   News: "/pages/Blogs"
-  ✉: "/pages/Contact"
+  Contact: "/pages/Contact"
 
 social-network-links:
   github: "the-star-sea/TongLab"
