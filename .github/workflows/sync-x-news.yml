@@ -1,0 +1,40 @@
+name: Sync X news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-x-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync cached X news feed
+        env:
+          X_NEWS_HANDLE: hahastone2
+          # Optional override if you run your own RSS bridge or prefer a specific provider.
+          X_NEWS_FEED_URL: ${{ secrets.X_NEWS_FEED_URL }}
+        run: python3 scripts/sync_x_news.py
+
+      - name: Commit updated cache
+        run: |
+          if git diff --quiet -- _data/x_news.json; then
+            echo "No feed changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/x_news.json
+          git commit -m "chore: sync X news cache"
+          git push

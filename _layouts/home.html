@@ -4,6 +4,10 @@ layout: page
 
 {{ content }}
 
+{% if page.show_x_news %}
+  {% include x-news-feed.html title="Stone's X updates" limit=6 %}
+{% endif %}
+
 {% assign posts = paginator.posts | default: site.posts %}
 
 <div class="posts-list">
