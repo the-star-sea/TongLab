@@ -3,44 +3,22 @@
 {% assign x_profile_url = x_news.profile_url | default: 'https://x.com/' | append: x_handle %}
 {% assign x_items = x_news.items | default: empty %}
 
+{% if x_items != empty %}
 <section class="x-news-block">
   <div class="x-news-header">
-    <div>
-      <p class="x-news-eyebrow">Live from X</p>
-      <h3>{{ include.title | default: 'Latest updates from Stone' }}</h3>
-      <p class="x-news-subtitle">
-        This block is synced from <a href="{{ x_profile_url }}" target="_blank" rel="noopener">@{{ x_handle }}</a>
-        using a build-time feed fetch, so the homepage stays fast and works without client-side embeds.
-      </p>
-    </div>
-    <a class="x-news-profile-link" href="{{ x_profile_url }}" target="_blank" rel="noopener">View profile</a>
+    <div></div>
   </div>
 
-  {% if x_items != empty %}
-    <div class="x-news-grid">
-      {% for item in x_items limit: include.limit | default: 4 %}
-        <article class="x-news-card">
-          <p class="x-news-date">{{ item.published_label }}</p>
-          <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></h4>
-          {% if item.summary %}
-            <p>{{ item.summary }}</p>
-          {% endif %}
-          <a class="x-news-readmore" href="{{ item.url }}" target="_blank" rel="noopener">Open on X →</a>
-        </article>
-      {% endfor %}
-    </div>
-    {% if x_news.last_synced_label %}
-      <p class="x-news-meta">Last synced {{ x_news.last_synced_label }}.</p>
-    {% endif %}
-  {% else %}
-    <div class="x-news-empty">
-      <p>
-        The cached feed is empty right now. You can still follow the latest posts directly on
-        <a href="{{ x_profile_url }}" target="_blank" rel="noopener">Stone's X profile</a>.
-      </p>
-      {% if x_news.last_synced_label %}
-        <p class="x-news-meta">Last sync attempt {{ x_news.last_synced_label }}.</p>
-      {% endif %}
-    </div>
-  {% endif %}
+  <div class="x-news-grid">
+    {% for item in x_items limit: include.limit | default: 4 %}
+      <article class="x-news-card">
+        <p class="x-news-date">{{ item.published_label }}</p>
+        <h4><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></h4>
+        {% if item.summary %}
+          <p>{{ item.summary }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
 </section>
+{% endif %}
